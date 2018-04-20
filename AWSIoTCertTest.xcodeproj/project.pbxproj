@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B3180842089C7390059E8C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3180832089C7390059E8C2 /* AppDelegate.swift */; };
+		8B3180862089C7390059E8C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3180852089C7390059E8C2 /* ViewController.swift */; };
+		8B3180892089C7390059E8C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3180872089C7390059E8C2 /* Main.storyboard */; };
+		8B31808B2089C7390059E8C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B31808A2089C7390059E8C2 /* Assets.xcassets */; };
+		8B31808E2089C7390059E8C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B31808C2089C7390059E8C2 /* LaunchScreen.storyboard */; };
+		8B3180992089C7390059E8C2 /* AWSIoTCertTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3180982089C7390059E8C2 /* AWSIoTCertTestTests.swift */; };
+		8B3180A42089C7390059E8C2 /* AWSIoTCertTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3180A32089C7390059E8C2 /* AWSIoTCertTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B3180952089C7390059E8C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B3180782089C7390059E8C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B31807F2089C7390059E8C2;
+			remoteInfo = AWSIoTCertTest;
+		};
+		8B3180A02089C7390059E8C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B3180782089C7390059E8C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B31807F2089C7390059E8C2;
+			remoteInfo = AWSIoTCertTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B3180802089C7390059E8C2 /* AWSIoTCertTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSIoTCertTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3180832089C7390059E8C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B3180852089C7390059E8C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B3180882089C7390059E8C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B31808A2089C7390059E8C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B31808D2089C7390059E8C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B31808F2089C7390059E8C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B3180942089C7390059E8C2 /* AWSIoTCertTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWSIoTCertTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3180982089C7390059E8C2 /* AWSIoTCertTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSIoTCertTestTests.swift; sourceTree = "<group>"; };
+		8B31809A2089C7390059E8C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B31809F2089C7390059E8C2 /* AWSIoTCertTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWSIoTCertTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3180A32089C7390059E8C2 /* AWSIoTCertTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSIoTCertTestUITests.swift; sourceTree = "<group>"; };
+		8B3180A52089C7390059E8C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B31807D2089C7390059E8C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3180912089C7390059E8C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B31809C2089C7390059E8C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B3180772089C7390059E8C2 = {
+			isa = PBXGroup;
+			children = (
+				8B3180822089C7390059E8C2 /* AWSIoTCertTest */,
+				8B3180972089C7390059E8C2 /* AWSIoTCertTestTests */,
+				8B3180A22089C7390059E8C2 /* AWSIoTCertTestUITests */,
+				8B3180812089C7390059E8C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B3180812089C7390059E8C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B3180802089C7390059E8C2 /* AWSIoTCertTest.app */,
+				8B3180942089C7390059E8C2 /* AWSIoTCertTestTests.xctest */,
+				8B31809F2089C7390059E8C2 /* AWSIoTCertTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B3180822089C7390059E8C2 /* AWSIoTCertTest */ = {
+			isa = PBXGroup;
+			children = (
+				8B3180832089C7390059E8C2 /* AppDelegate.swift */,
+				8B3180852089C7390059E8C2 /* ViewController.swift */,
+				8B3180872089C7390059E8C2 /* Main.storyboard */,
+				8B31808A2089C7390059E8C2 /* Assets.xcassets */,
+				8B31808C2089C7390059E8C2 /* LaunchScreen.storyboard */,
+				8B31808F2089C7390059E8C2 /* Info.plist */,
+			);
+			path = AWSIoTCertTest;
+			sourceTree = "<group>";
+		};
+		8B3180972089C7390059E8C2 /* AWSIoTCertTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B3180982089C7390059E8C2 /* AWSIoTCertTestTests.swift */,
+				8B31809A2089C7390059E8C2 /* Info.plist */,
+			);
+			path = AWSIoTCertTestTests;
+			sourceTree = "<group>";
+		};
+		8B3180A22089C7390059E8C2 /* AWSIoTCertTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B3180A32089C7390059E8C2 /* AWSIoTCertTestUITests.swift */,
+				8B3180A52089C7390059E8C2 /* Info.plist */,
+			);
+			path = AWSIoTCertTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B31807F2089C7390059E8C2 /* AWSIoTCertTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B3180A82089C7390059E8C2 /* Build configuration list for PBXNativeTarget "AWSIoTCertTest" */;
+			buildPhases = (
+				8B31807C2089C7390059E8C2 /* Sources */,
+				8B31807D2089C7390059E8C2 /* Frameworks */,
+				8B31807E2089C7390059E8C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWSIoTCertTest;
+			productName = AWSIoTCertTest;
+			productReference = 8B3180802089C7390059E8C2 /* AWSIoTCertTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B3180932089C7390059E8C2 /* AWSIoTCertTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B3180AB2089C7390059E8C2 /* Build configuration list for PBXNativeTarget "AWSIoTCertTestTests" */;
+			buildPhases = (
+				8B3180902089C7390059E8C2 /* Sources */,
+				8B3180912089C7390059E8C2 /* Frameworks */,
+				8B3180922089C7390059E8C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B3180962089C7390059E8C2 /* PBXTargetDependency */,
+			);
+			name = AWSIoTCertTestTests;
+			productName = AWSIoTCertTestTests;
+			productReference = 8B3180942089C7390059E8C2 /* AWSIoTCertTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B31809E2089C7390059E8C2 /* AWSIoTCertTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B3180AE2089C7390059E8C2 /* Build configuration list for PBXNativeTarget "AWSIoTCertTestUITests" */;
+			buildPhases = (
+				8B31809B2089C7390059E8C2 /* Sources */,
+				8B31809C2089C7390059E8C2 /* Frameworks */,
+				8B31809D2089C7390059E8C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B3180A12089C7390059E8C2 /* PBXTargetDependency */,
+			);
+			name = AWSIoTCertTestUITests;
+			productName = AWSIoTCertTestUITests;
+			productReference = 8B31809F2089C7390059E8C2 /* AWSIoTCertTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B3180782089C7390059E8C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = david5_huang;
+				TargetAttributes = {
+					8B31807F2089C7390059E8C2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8B3180932089C7390059E8C2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B31807F2089C7390059E8C2;
+					};
+					8B31809E2089C7390059E8C2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B31807F2089C7390059E8C2;
+					};
+				};
+			};
+			buildConfigurationList = 8B31807B2089C7390059E8C2 /* Build configuration list for PBXProject "AWSIoTCertTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B3180772089C7390059E8C2;
+			productRefGroup = 8B3180812089C7390059E8C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B31807F2089C7390059E8C2 /* AWSIoTCertTest */,
+				8B3180932089C7390059E8C2 /* AWSIoTCertTestTests */,
+				8B31809E2089C7390059E8C2 /* AWSIoTCertTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B31807E2089C7390059E8C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B31808E2089C7390059E8C2 /* LaunchScreen.storyboard in Resources */,
+				8B31808B2089C7390059E8C2 /* Assets.xcassets in Resources */,
+				8B3180892089C7390059E8C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3180922089C7390059E8C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B31809D2089C7390059E8C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B31807C2089C7390059E8C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3180862089C7390059E8C2 /* ViewController.swift in Sources */,
+				8B3180842089C7390059E8C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3180902089C7390059E8C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3180992089C7390059E8C2 /* AWSIoTCertTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B31809B2089C7390059E8C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3180A42089C7390059E8C2 /* AWSIoTCertTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B3180962089C7390059E8C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B31807F2089C7390059E8C2 /* AWSIoTCertTest */;
+			targetProxy = 8B3180952089C7390059E8C2 /* PBXContainerItemProxy */;
+		};
+		8B3180A12089C7390059E8C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B31807F2089C7390059E8C2 /* AWSIoTCertTest */;
+			targetProxy = 8B3180A02089C7390059E8C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B3180872089C7390059E8C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B3180882089C7390059E8C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B31808C2089C7390059E8C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B31808D2089C7390059E8C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B3180A62089C7390059E8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B3180A72089C7390059E8C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B3180A92089C7390059E8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EBUX4JTAPN;
+				INFOPLIST_FILE = AWSIoTCertTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.askeycloud.AWSIoTCertTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B3180AA2089C7390059E8C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EBUX4JTAPN;
+				INFOPLIST_FILE = AWSIoTCertTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.askeycloud.AWSIoTCertTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B3180AC2089C7390059E8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EBUX4JTAPN;
+				INFOPLIST_FILE = AWSIoTCertTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.askeycloud.AWSIoTCertTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AWSIoTCertTest.app/AWSIoTCertTest";
+			};
+			name = Debug;
+		};
+		8B3180AD2089C7390059E8C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EBUX4JTAPN;
+				INFOPLIST_FILE = AWSIoTCertTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.askeycloud.AWSIoTCertTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AWSIoTCertTest.app/AWSIoTCertTest";
+			};
+			name = Release;
+		};
+		8B3180AF2089C7390059E8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EBUX4JTAPN;
+				INFOPLIST_FILE = AWSIoTCertTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.askeycloud.AWSIoTCertTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AWSIoTCertTest;
+			};
+			name = Debug;
+		};
+		8B3180B02089C7390059E8C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EBUX4JTAPN;
+				INFOPLIST_FILE = AWSIoTCertTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.askeycloud.AWSIoTCertTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AWSIoTCertTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B31807B2089C7390059E8C2 /* Build configuration list for PBXProject "AWSIoTCertTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B3180A62089C7390059E8C2 /* Debug */,
+				8B3180A72089C7390059E8C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B3180A82089C7390059E8C2 /* Build configuration list for PBXNativeTarget "AWSIoTCertTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B3180A92089C7390059E8C2 /* Debug */,
+				8B3180AA2089C7390059E8C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B3180AB2089C7390059E8C2 /* Build configuration list for PBXNativeTarget "AWSIoTCertTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B3180AC2089C7390059E8C2 /* Debug */,
+				8B3180AD2089C7390059E8C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B3180AE2089C7390059E8C2 /* Build configuration list for PBXNativeTarget "AWSIoTCertTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B3180AF2089C7390059E8C2 /* Debug */,
+				8B3180B02089C7390059E8C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B3180782089C7390059E8C2 /* Project object */;
+}
