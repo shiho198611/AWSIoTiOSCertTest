@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33BBE162EC61EAA768FBDE30 /* Pods_AWSIoTCertTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C308460A8D5DA836E14FAA /* Pods_AWSIoTCertTest.framework */; };
+		36429738C601404C5524E38C /* libPods-IoTCertUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C72691B2E2EA2B356D97D5F /* libPods-IoTCertUtils.a */; };
+		70F87BB5F189A1073C217103 /* Pods_AWSIoTCertTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06DB208B783FEEC10223CCBF /* Pods_AWSIoTCertTestTests.framework */; };
 		8B3180842089C7390059E8C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3180832089C7390059E8C2 /* AppDelegate.swift */; };
-		8B3180862089C7390059E8C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3180852089C7390059E8C2 /* ViewController.swift */; };
 		8B3180892089C7390059E8C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3180872089C7390059E8C2 /* Main.storyboard */; };
 		8B31808B2089C7390059E8C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B31808A2089C7390059E8C2 /* Assets.xcassets */; };
 		8B31808E2089C7390059E8C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B31808C2089C7390059E8C2 /* LaunchScreen.storyboard */; };
 		8B3180992089C7390059E8C2 /* AWSIoTCertTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3180982089C7390059E8C2 /* AWSIoTCertTestTests.swift */; };
 		8B3180A42089C7390059E8C2 /* AWSIoTCertTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3180A32089C7390059E8C2 /* AWSIoTCertTestUITests.swift */; };
+		8B3180BA2089C7810059E8C2 /* IoTCertUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B3180B72089C7810059E8C2 /* IoTCertUtils.h */; };
+		8B3180C02089C80F0059E8C2 /* IoTKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3180BF2089C80F0059E8C2 /* IoTKeyHandler.m */; };
+		8B3180C32089CA840059E8C2 /* IoTMqttService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3180C22089CA840059E8C2 /* IoTMqttService.m */; };
+		8B3180C7208D83110059E8C2 /* IoTUtilsBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3180C6208D83110059E8C2 /* IoTUtilsBridge.m */; };
+		8B5E0AD4208DB27A000C5B18 /* libIoTCertUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3180B52089C7810059E8C2 /* libIoTCertUtils.a */; };
+		8BF55AB9208E29A800B7F191 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF55AB8208E29A800B7F191 /* ViewController.swift */; };
+		8BF55ABB208E3DDC00B7F191 /* TestConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF55ABA208E3DDC00B7F191 /* TestConst.swift */; };
+		DA94962CA00576175D309649 /* Pods_AWSIoTCertTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A217EA48DECFA76C0B8849 /* Pods_AWSIoTCertTestUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +43,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8B3180B32089C7810059E8C2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				8B3180BA2089C7810059E8C2 /* IoTCertUtils.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		06DB208B783FEEC10223CCBF /* Pods_AWSIoTCertTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWSIoTCertTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B19550D4D1FB554E77D159 /* Pods-AWSIoTCertTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSIoTCertTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSIoTCertTestTests/Pods-AWSIoTCertTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		2C72691B2E2EA2B356D97D5F /* libPods-IoTCertUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IoTCertUtils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AE5FD7AF84F2E370E93653 /* Pods-IoTCertUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IoTCertUtils.release.xcconfig"; path = "Pods/Target Support Files/Pods-IoTCertUtils/Pods-IoTCertUtils.release.xcconfig"; sourceTree = "<group>"; };
 		8B3180802089C7390059E8C2 /* AWSIoTCertTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSIoTCertTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3180832089C7390059E8C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B3180852089C7390059E8C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B3180882089C7390059E8C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B31808A2089C7390059E8C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B31808D2089C7390059E8C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +73,30 @@
 		8B31809F2089C7390059E8C2 /* AWSIoTCertTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWSIoTCertTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3180A32089C7390059E8C2 /* AWSIoTCertTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSIoTCertTestUITests.swift; sourceTree = "<group>"; };
 		8B3180A52089C7390059E8C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B3180B52089C7810059E8C2 /* libIoTCertUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIoTCertUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3180B72089C7810059E8C2 /* IoTCertUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IoTCertUtils.h; sourceTree = "<group>"; };
+		8B3180BE2089C80F0059E8C2 /* IoTKeyHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IoTKeyHandler.h; sourceTree = "<group>"; };
+		8B3180BF2089C80F0059E8C2 /* IoTKeyHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IoTKeyHandler.m; sourceTree = "<group>"; };
+		8B3180C12089CA840059E8C2 /* IoTMqttService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IoTMqttService.h; sourceTree = "<group>"; };
+		8B3180C22089CA840059E8C2 /* IoTMqttService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IoTMqttService.m; sourceTree = "<group>"; };
+		8B3180C4208D83110059E8C2 /* AWSIoTCertTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AWSIoTCertTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		8B3180C5208D83110059E8C2 /* IoTUtilsBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IoTUtilsBridge.h; sourceTree = "<group>"; };
+		8B3180C6208D83110059E8C2 /* IoTUtilsBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IoTUtilsBridge.m; sourceTree = "<group>"; };
+		8B5E0ACE208D8E1D000C5B18 /* AWSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AWSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5E0ACF208D8E1D000C5B18 /* AWSIoT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AWSIoT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5E0AD2208D9B32000C5B18 /* libAWSCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAWSCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5E0AD3208D9B32000C5B18 /* libAWSIoT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAWSIoT.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5E0AD6208DC1C0000C5B18 /* AWSIoTCertTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AWSIoTCertTest.entitlements; sourceTree = "<group>"; };
+		8BF55AB8208E29A800B7F191 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BF55ABA208E3DDC00B7F191 /* TestConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConst.swift; sourceTree = "<group>"; };
+		91F28F062661DCC9DF87C420 /* Pods-AWSIoTCertTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSIoTCertTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSIoTCertTestUITests/Pods-AWSIoTCertTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AF415CBA57A57FC8FC355D55 /* Pods-AWSIoTCertTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSIoTCertTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSIoTCertTestTests/Pods-AWSIoTCertTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9A217EA48DECFA76C0B8849 /* Pods_AWSIoTCertTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWSIoTCertTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7741999E15F2B7CE9DD70EB /* Pods-AWSIoTCertTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSIoTCertTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSIoTCertTest/Pods-AWSIoTCertTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D9C308460A8D5DA836E14FAA /* Pods_AWSIoTCertTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWSIoTCertTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBFA224D48685C34D677167 /* Pods-IoTCertUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IoTCertUtils.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IoTCertUtils/Pods-IoTCertUtils.debug.xcconfig"; sourceTree = "<group>"; };
+		ED046DD2ADDD54413F878F93 /* Pods-AWSIoTCertTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSIoTCertTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSIoTCertTestUITests/Pods-AWSIoTCertTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA0030D1FBD49BF3262D07BA /* Pods-AWSIoTCertTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSIoTCertTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSIoTCertTest/Pods-AWSIoTCertTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +104,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B5E0AD4208DB27A000C5B18 /* libIoTCertUtils.a in Frameworks */,
+				33BBE162EC61EAA768FBDE30 /* Pods_AWSIoTCertTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70F87BB5F189A1073C217103 /* Pods_AWSIoTCertTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +121,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA94962CA00576175D309649 /* Pods_AWSIoTCertTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3180B22089C7810059E8C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36429738C601404C5524E38C /* libPods-IoTCertUtils.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F3A28FF674F3EB63C2FFB54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7741999E15F2B7CE9DD70EB /* Pods-AWSIoTCertTest.debug.xcconfig */,
+				FA0030D1FBD49BF3262D07BA /* Pods-AWSIoTCertTest.release.xcconfig */,
+				AF415CBA57A57FC8FC355D55 /* Pods-AWSIoTCertTestTests.debug.xcconfig */,
+				23B19550D4D1FB554E77D159 /* Pods-AWSIoTCertTestTests.release.xcconfig */,
+				ED046DD2ADDD54413F878F93 /* Pods-AWSIoTCertTestUITests.debug.xcconfig */,
+				91F28F062661DCC9DF87C420 /* Pods-AWSIoTCertTestUITests.release.xcconfig */,
+				DDBFA224D48685C34D677167 /* Pods-IoTCertUtils.debug.xcconfig */,
+				76AE5FD7AF84F2E370E93653 /* Pods-IoTCertUtils.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		695A34A7776B41E3A2AFEB2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B5E0AD2208D9B32000C5B18 /* libAWSCore.a */,
+				8B5E0AD3208D9B32000C5B18 /* libAWSIoT.a */,
+				8B5E0ACE208D8E1D000C5B18 /* AWSCore.framework */,
+				8B5E0ACF208D8E1D000C5B18 /* AWSIoT.framework */,
+				D9C308460A8D5DA836E14FAA /* Pods_AWSIoTCertTest.framework */,
+				06DB208B783FEEC10223CCBF /* Pods_AWSIoTCertTestTests.framework */,
+				B9A217EA48DECFA76C0B8849 /* Pods_AWSIoTCertTestUITests.framework */,
+				2C72691B2E2EA2B356D97D5F /* libPods-IoTCertUtils.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8B3180772089C7390059E8C2 = {
 			isa = PBXGroup;
 			children = (
 				8B3180822089C7390059E8C2 /* AWSIoTCertTest */,
 				8B3180972089C7390059E8C2 /* AWSIoTCertTestTests */,
 				8B3180A22089C7390059E8C2 /* AWSIoTCertTestUITests */,
+				8B3180B62089C7810059E8C2 /* IoTCertUtils */,
 				8B3180812089C7390059E8C2 /* Products */,
+				2F3A28FF674F3EB63C2FFB54 /* Pods */,
+				695A34A7776B41E3A2AFEB2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +185,7 @@
 				8B3180802089C7390059E8C2 /* AWSIoTCertTest.app */,
 				8B3180942089C7390059E8C2 /* AWSIoTCertTestTests.xctest */,
 				8B31809F2089C7390059E8C2 /* AWSIoTCertTestUITests.xctest */,
+				8B3180B52089C7810059E8C2 /* libIoTCertUtils.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,12 +193,17 @@
 		8B3180822089C7390059E8C2 /* AWSIoTCertTest */ = {
 			isa = PBXGroup;
 			children = (
+				8BF55AB8208E29A800B7F191 /* ViewController.swift */,
+				8B5E0AD6208DC1C0000C5B18 /* AWSIoTCertTest.entitlements */,
 				8B3180832089C7390059E8C2 /* AppDelegate.swift */,
-				8B3180852089C7390059E8C2 /* ViewController.swift */,
 				8B3180872089C7390059E8C2 /* Main.storyboard */,
 				8B31808A2089C7390059E8C2 /* Assets.xcassets */,
 				8B31808C2089C7390059E8C2 /* LaunchScreen.storyboard */,
 				8B31808F2089C7390059E8C2 /* Info.plist */,
+				8B3180C5208D83110059E8C2 /* IoTUtilsBridge.h */,
+				8B3180C6208D83110059E8C2 /* IoTUtilsBridge.m */,
+				8B3180C4208D83110059E8C2 /* AWSIoTCertTest-Bridging-Header.h */,
+				8BF55ABA208E3DDC00B7F191 /* TestConst.swift */,
 			);
 			path = AWSIoTCertTest;
 			sourceTree = "<group>";
@@ -125,6 +226,18 @@
 			path = AWSIoTCertTestUITests;
 			sourceTree = "<group>";
 		};
+		8B3180B62089C7810059E8C2 /* IoTCertUtils */ = {
+			isa = PBXGroup;
+			children = (
+				8B3180B72089C7810059E8C2 /* IoTCertUtils.h */,
+				8B3180BE2089C80F0059E8C2 /* IoTKeyHandler.h */,
+				8B3180BF2089C80F0059E8C2 /* IoTKeyHandler.m */,
+				8B3180C12089CA840059E8C2 /* IoTMqttService.h */,
+				8B3180C22089CA840059E8C2 /* IoTMqttService.m */,
+			);
+			path = IoTCertUtils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B3180A82089C7390059E8C2 /* Build configuration list for PBXNativeTarget "AWSIoTCertTest" */;
 			buildPhases = (
+				46F3EA3A815A79C1282A702E /* [CP] Check Pods Manifest.lock */,
 				8B31807C2089C7390059E8C2 /* Sources */,
 				8B31807D2089C7390059E8C2 /* Frameworks */,
 				8B31807E2089C7390059E8C2 /* Resources */,
+				C4A22CA43DB502485413A73D /* [CP] Embed Pods Frameworks */,
+				01C0D7A1CA74DE87195AFD19 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +265,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B3180AB2089C7390059E8C2 /* Build configuration list for PBXNativeTarget "AWSIoTCertTestTests" */;
 			buildPhases = (
+				1ED7CB033F88C4E9D3D62BED /* [CP] Check Pods Manifest.lock */,
 				8B3180902089C7390059E8C2 /* Sources */,
 				8B3180912089C7390059E8C2 /* Frameworks */,
 				8B3180922089C7390059E8C2 /* Resources */,
+				B330E4EB1C41D2FB6CF9D17D /* [CP] Embed Pods Frameworks */,
+				F8171A0BE8BB0C6A41E91645 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +286,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B3180AE2089C7390059E8C2 /* Build configuration list for PBXNativeTarget "AWSIoTCertTestUITests" */;
 			buildPhases = (
+				9D38CA527968A1896B52D204 /* [CP] Check Pods Manifest.lock */,
 				8B31809B2089C7390059E8C2 /* Sources */,
 				8B31809C2089C7390059E8C2 /* Frameworks */,
 				8B31809D2089C7390059E8C2 /* Resources */,
+				DCA73AEA0A52CBC6E1BBAFD5 /* [CP] Embed Pods Frameworks */,
+				62B89F9AD6639CF4471F02F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,6 +302,25 @@
 			productName = AWSIoTCertTestUITests;
 			productReference = 8B31809F2089C7390059E8C2 /* AWSIoTCertTestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8B3180B42089C7810059E8C2 /* IoTCertUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B3180BB2089C7810059E8C2 /* Build configuration list for PBXNativeTarget "IoTCertUtils" */;
+			buildPhases = (
+				18425A280C234C6F78E0895C /* [CP] Check Pods Manifest.lock */,
+				8B3180B12089C7810059E8C2 /* Sources */,
+				8B3180B22089C7810059E8C2 /* Frameworks */,
+				8B3180B32089C7810059E8C2 /* CopyFiles */,
+				9BA9188E1C977EF4EB168714 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IoTCertUtils;
+			productName = IoTCertUtils;
+			productReference = 8B3180B52089C7810059E8C2 /* libIoTCertUtils.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,7 +334,13 @@
 				TargetAttributes = {
 					8B31807F2089C7390059E8C2 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					8B3180932089C7390059E8C2 = {
 						CreatedOnToolsVersion = 9.2;
@@ -204,6 +351,10 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8B31807F2089C7390059E8C2;
+					};
+					8B3180B42089C7810059E8C2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -223,6 +374,7 @@
 				8B31807F2089C7390059E8C2 /* AWSIoTCertTest */,
 				8B3180932089C7390059E8C2 /* AWSIoTCertTestTests */,
 				8B31809E2089C7390059E8C2 /* AWSIoTCertTestUITests */,
+				8B3180B42089C7810059E8C2 /* IoTCertUtils */,
 			);
 		};
 /* End PBXProject section */
@@ -254,12 +406,194 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01C0D7A1CA74DE87195AFD19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSIoTCertTest/Pods-AWSIoTCertTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18425A280C234C6F78E0895C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IoTCertUtils-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1ED7CB033F88C4E9D3D62BED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWSIoTCertTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46F3EA3A815A79C1282A702E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWSIoTCertTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62B89F9AD6639CF4471F02F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSIoTCertTestUITests/Pods-AWSIoTCertTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BA9188E1C977EF4EB168714 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IoTCertUtils/Pods-IoTCertUtils-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D38CA527968A1896B52D204 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWSIoTCertTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B330E4EB1C41D2FB6CF9D17D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSIoTCertTestTests/Pods-AWSIoTCertTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4A22CA43DB502485413A73D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSIoTCertTest/Pods-AWSIoTCertTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCA73AEA0A52CBC6E1BBAFD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSIoTCertTestUITests/Pods-AWSIoTCertTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8171A0BE8BB0C6A41E91645 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSIoTCertTestTests/Pods-AWSIoTCertTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8B31807C2089C7390059E8C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B3180862089C7390059E8C2 /* ViewController.swift in Sources */,
+				8BF55AB9208E29A800B7F191 /* ViewController.swift in Sources */,
+				8BF55ABB208E3DDC00B7F191 /* TestConst.swift in Sources */,
+				8B3180C7208D83110059E8C2 /* IoTUtilsBridge.m in Sources */,
 				8B3180842089C7390059E8C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +611,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B3180A42089C7390059E8C2 /* AWSIoTCertTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3180B12089C7810059E8C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3180C02089C80F0059E8C2 /* IoTKeyHandler.m in Sources */,
+				8B3180C32089CA840059E8C2 /* IoTMqttService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,8 +690,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/OpenSSL-for-iOS\"",
+					"$(inherited)",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -363,12 +711,25 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AWSCore\"",
+					"\"${PODS_ROOT}/Headers/Public/AWSIoT\"",
+					"\"${PODS_ROOT}/Headers/Public/OpenSSL-for-iOS\"",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AWSCore\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AWSIoT\"",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -404,8 +765,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/OpenSSL-for-iOS\"",
+					"$(inherited)",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -414,46 +780,123 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AWSCore\"",
+					"\"${PODS_ROOT}/Headers/Public/AWSIoT\"",
+					"\"${PODS_ROOT}/Headers/Public/OpenSSL-for-iOS\"",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AWSCore\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AWSIoT\"",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		8B3180A92089C7390059E8C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7741999E15F2B7CE9DD70EB /* Pods-AWSIoTCertTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AWSIoTCertTest/AWSIoTCertTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EBUX4JTAPN;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/OpenSSL-for-iOS\"",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AWSCore\"",
+					"\"${PODS_ROOT}/Headers/Public/OpenSSL-for-iOS\"",
+					"\"${PODS_ROOT}/Headers/Public/AWSIoT\"",
+				);
 				INFOPLIST_FILE = AWSIoTCertTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AWSCore\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AWSIoT\"",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					"\"openssl\"",
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AWSCore\"",
+					"-l\"AWSIoT\"",
+					"-l\"z\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.askeycloud.AWSIoTCertTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AWSIoTCertTest/AWSIoTCertTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		8B3180AA2089C7390059E8C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA0030D1FBD49BF3262D07BA /* Pods-AWSIoTCertTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AWSIoTCertTest/AWSIoTCertTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EBUX4JTAPN;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/OpenSSL-for-iOS\"",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AWSCore\"",
+					"\"${PODS_ROOT}/Headers/Public/OpenSSL-for-iOS\"",
+					"\"${PODS_ROOT}/Headers/Public/AWSIoT\"",
+				);
 				INFOPLIST_FILE = AWSIoTCertTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AWSCore\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AWSIoT\"",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					"\"openssl\"",
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AWSCore\"",
+					"-l\"AWSIoT\"",
+					"-l\"z\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.askeycloud.AWSIoTCertTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AWSIoTCertTest/AWSIoTCertTest-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
 		8B3180AC2089C7390059E8C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF415CBA57A57FC8FC355D55 /* Pods-AWSIoTCertTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +914,7 @@
 		};
 		8B3180AD2089C7390059E8C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23B19550D4D1FB554E77D159 /* Pods-AWSIoTCertTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +932,7 @@
 		};
 		8B3180AF2089C7390059E8C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED046DD2ADDD54413F878F93 /* Pods-AWSIoTCertTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +949,7 @@
 		};
 		8B3180B02089C7390059E8C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91F28F062661DCC9DF87C420 /* Pods-AWSIoTCertTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -515,6 +961,70 @@
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = AWSIoTCertTest;
+			};
+			name = Release;
+		};
+		8B3180BC2089C7810059E8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDBFA224D48685C34D677167 /* Pods-IoTCertUtils.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EBUX4JTAPN;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/OpenSSL-for-iOS\"",
+					"${PODS_ROOT}/AWSIoT",
+					"${PODS_ROOT}/AWSCore",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/OpenSSL-for-iOS\"",
+					"\"${PODS_ROOT}/Headers/Public/AWSIoT\"",
+					"\"${PODS_ROOT}/Headers/Public/AWSCore\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AWSIoT\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+			};
+			name = Debug;
+		};
+		8B3180BD2089C7810059E8C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76AE5FD7AF84F2E370E93653 /* Pods-IoTCertUtils.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EBUX4JTAPN;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/OpenSSL-for-iOS\"",
+					"${PODS_ROOT}/AWSIoT",
+					"${PODS_ROOT}/AWSCore",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/OpenSSL-for-iOS\"",
+					"\"${PODS_ROOT}/Headers/Public/AWSIoT\"",
+					"\"${PODS_ROOT}/Headers/Public/AWSCore\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AWSIoT\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Release;
 		};
@@ -553,6 +1063,15 @@
 			buildConfigurations = (
 				8B3180AF2089C7390059E8C2 /* Debug */,
 				8B3180B02089C7390059E8C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B3180BB2089C7810059E8C2 /* Build configuration list for PBXNativeTarget "IoTCertUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B3180BC2089C7810059E8C2 /* Debug */,
+				8B3180BD2089C7810059E8C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

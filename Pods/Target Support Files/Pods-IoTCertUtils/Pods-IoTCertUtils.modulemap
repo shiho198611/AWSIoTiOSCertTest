@@ -1,0 +1,6 @@
+framework module Pods_IoTCertUtils {
+  umbrella header "Pods-IoTCertUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

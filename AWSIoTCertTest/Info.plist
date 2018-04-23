@@ -41,5 +41,59 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    
+    <key>IoTCert</key>
+    <string>-----BEGIN CERTIFICATE-----
+        MIIDWTCCAkGgAwIBAgIUY0WRLqOk2QrSElvzHCad62kLXvUwDQYJKoZIhvcNAQEL
+        BQAwTTFLMEkGA1UECwxCQW1hem9uIFdlYiBTZXJ2aWNlcyBPPUFtYXpvbi5jb20g
+        SW5jLiBMPVNlYXR0bGUgU1Q9V2FzaGluZ3RvbiBDPVVTMB4XDTE4MDQyMzA3NTUw
+        MFoXDTQ5MTIzMTIzNTk1OVowHjEcMBoGA1UEAwwTQVdTIElvVCBDZXJ0aWZpY2F0
+        ZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMhWOIg+i923IMGIZz08
+        8+k94ilU313tPAfDF8NpoS65Y0KEd1aeFWctuzUIIq2BOIENLJVfZNDl+Minau3R
+        aAA9IPmbnH5pQxhfwUwAYX2QpVVLXBkRovrywJ6B542ZGN0v15QUudsVlenqWiWo
+        wrZaB1eztKNGCbdgGgIhespEkL4lk9BQfuoXhCpY/XsfAAYVLYfzdhT+DDreAojv
+        TDdAUaqhKDR15A+0a8Bqx5ai2fAZECPQ9Hdotwg9LFsTMGsaU+vwsmth6N3dsa4K
+        sbj/4Ld1EOAbBozLWXkpkv4M0ESphGDNPtO6TOp7rAvi5CMKvw2+90nBeeIXZCRs
+        kvMCAwEAAaNgMF4wHwYDVR0jBBgwFoAUzMUOYHKjh8hkY0sR46IxCZSbOTUwHQYD
+        VR0OBBYEFBkQgVECu2dWSeWbLIxa6MbHtpmDMAwGA1UdEwEB/wQCMAAwDgYDVR0P
+        AQH/BAQDAgeAMA0GCSqGSIb3DQEBCwUAA4IBAQCY4r+QizG61ht6lyHar3VJq5Dw
+        uXUvfy7ZOR4XzklzmMLEsL5rg7+UHCemkMayO1ARqQSDQXoXT+fq/Bjo9kZq1rSA
+        I651nJ3fmeimlUgrOX+E0QrlsQwoGkZdo4hiWOkGHqPskUCVOAFKZHHbaWb7MdWj
+        wfRbl2YNlWsgnyzXuwQ5zofMEE9y0+i+J0FVXDTjX0dD75khZmWcD9246TvPiXti
+        cmoVLTPrQ3kf+0fW8XI6X+sarq/4n4QgeVGGCqagDO5dzgua/7y+qaiEBFzhYRZ7
+        FBdAatz7NqyvJa8iwMcroPtYQr5gGc00V+Xhl8uNAGY5dLwNDrOTZc4OJ2zK
+        -----END CERTIFICATE-----
+    </string>
+    
+    <key>IoTPk</key>
+    <string>-----BEGIN RSA PRIVATE KEY-----
+        MIIEowIBAAKCAQEAyFY4iD6L3bcgwYhnPTzz6T3iKVTfXe08B8MXw2mhLrljQoR3
+        Vp4VZy27NQgirYE4gQ0slV9k0OX4yKdq7dFoAD0g+ZucfmlDGF/BTABhfZClVUtc
+        GRGi+vLAnoHnjZkY3S/XlBS52xWV6epaJajCtloHV7O0o0YJt2AaAiF6ykSQviWT
+        0FB+6heEKlj9ex8ABhUth/N2FP4MOt4CiO9MN0BRqqEoNHXkD7RrwGrHlqLZ8BkQ
+        I9D0d2i3CD0sWxMwaxpT6/Cya2Ho3d2xrgqxuP/gt3UQ4BsGjMtZeSmS/gzQRKmE
+        YM0+07pM6nusC+LkIwq/Db73ScF54hdkJGyS8wIDAQABAoIBAHHfsJqhEtegNFpN
+        soE4mFxH9LoRqDW3l5vB5UwKSrhIYId6zGrLyNaxQ+xNB4kgHoIcfu8ZHjEvx04m
+        +7zafwdDt+6p6TZhluXP6AvPW5sIETJ+d4c4Yy/JtHtk073E/EEd5Kgjb9F8X45q
+        y3sEhkkou2u6lj8InJVDZwU3CpjVhlFeoxiRoWCvt4UCFq+56JnrkZXhGGDawhNy
+        HDr0sqJ/3OO/F11zAjyi99LTK8QfCT9JCQba3Zxz8rCxs7BdITXQcPCEjU+SPzo7
+        bAlOFpfCq86+HgSym5B+edvkJ5fznRR+f5bfHYFVD5L9ydia72lhJyQiYdnTS/mW
+        Ck7XRaECgYEA9C/EX5Z+vMe5N4kDJDfx3Ez8GDk5G82cqeFfXad741H3OKBmDi1T
+        R0z3M1KHgkMvrzbAHMs75miwqzdxHmKNB8633TWRRN8KoMZBWtTgYsfS1tAujtQf
+        pRGPqBEA6f/hmjqXN0DwKcQH6xYCYZATjjxbg7jdEljU/W/u/By/HD8CgYEA0gdg
+        mJd3sVmx8f7sKFyZW/4689EPTdArPUCk0+f1joFgFRWVb1IiiDOnSA7P5rAmMJcw
+        7NwIZK2lf1FUlkyiE3rBQKLRdwfnk6eawb70REqWUouyuY3cUSjPCt2TX7U4SduX
+        Zll1+HFYfRkhbp1QHm1fwlGLu1mCbFvu7cFZ7E0CgYEA49CY3jFTBp8zTvu2AZls
+        PYNZguQIQsc+jUOlrIOwUrHK+3qyHDHvS0skKi6qHD7AgzCKZZK6zMkJYoP0Nkvt
+        lcYnxerPIDkS+lJc8PhAbAhPzXgmp7yB1YgfxcYvWyEOgsx8/eDI775jQNGk4Q8B
+        H6dyHd9f6VkVRWmjxnSvXBMCgYAjNQ1iRvHPjwOfV2ZrFaq3mxRyzrbMCntVF0MK
+        KrYlH1bl8epM8O3M+yutjp4XQ6wDNTUEX5YgmmNFxnJxh4Mb1NYUabbHR1HwlIYC
+        uGnmEMLGL5jUNg2apUafwaj0wEIhT2g/xftanFWDEvVhv4kwsJD+2ACedVDBrV+O
+        B311eQKBgHcwDSw4BWbJKoT44K3zAPr85tlSBOvkYGXxvq5rNs8GSNP4Hd/+1qAl
+        DKNYtqN5GrxWc5FNXZ3UVnzeSihjE5rZIFnEQYON/oeXe1uoR29ey6EaLlKp9MNJ
+        FusGKvrN1pEpfQyr+gLQEB7JQNa5d1aM9bjcayo1ZC8c6ZQf8DjF
+        -----END RSA PRIVATE KEY-----
+    </string>
+    
 </dict>
 </plist>
